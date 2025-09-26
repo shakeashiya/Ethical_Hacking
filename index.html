@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Box Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .search-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    }
+    input[type="text"] {
+      padding: 10px;
+      width: 250px;
+      border: 2px solid #ccc;
+      border-radius: 6px;
+      outline: none;
+      font-size: 16px;
+    }
+    input[type="submit"] {
+      padding: 10px 15px;
+      background: #007bff;
+      border: none;
+      border-radius: 6px;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      margin-left: 5px;
+    }
+    input[type="submit"]:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="search-box">
+    <form action="https://formsubmit.co/71762305117@cit.edu.in" method="POST">
+      <!-- Hidden fields -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Search Query!">
+
+      <!-- Search input -->
+      <input type="text" name="search" placeholder="Enter your query..." required>
+      <input type="submit" value="Search">
+     
+    </form>
+  </div>
+</body>
+</html>
